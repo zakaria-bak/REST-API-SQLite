@@ -49,7 +49,7 @@ class Item(Resource):
         return {"message" : "item deleted"}
 
     def put(self, name):
-        data = ItemModel.parser.parse_args()
+        data = Item.parser.parse_args()
 
         item = ItemModel.find_by_name(name)
         updated_item = ItemModel(name, data['price'])
