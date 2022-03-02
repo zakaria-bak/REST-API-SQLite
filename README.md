@@ -9,7 +9,7 @@ python create_table.py
 ```
 to run the server
 ```
-python main.py
+python app.py
 ```
 ## Testing The App on Postman
 Go to ``http://127.0.0.1:5000``
